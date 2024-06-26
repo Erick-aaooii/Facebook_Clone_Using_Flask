@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px; 
+}
+
+#box { 
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    img {
+        width: 100xp;
+        height: 100px;
+        margin: 1px;
+
+    }
+    p {
+        text-align: center;
+        font-size: x-large;
+        text-align: left;
+    }
+    
+}
+
+#login {
+    display: inline-block;
+    width: 400px;
+    height: 380px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #dbdbdb;
+    margin: 10px 10px;
+    text-align: center;
+    float: right;
+
+    input {
+        height: 60px;
+        width: 360px;
+        margin: 10px 10px;
+        border-radius: 5px;
+        border: 1px solid #cecece;
+    }
+    button {
+        border-radius: 5px;
+        display: block;
+        margin: 10px 10px;
+        width: 360px;
+        height: 50px;
+        text-align: center;
+        background-color: #2f71ff;
+        color: white;
+        border: none;
+        font-size: large;
+    }
+    a {
+        text-decoration: none;
+
+    }
+    #criar {
+        display: inline-block;
+        background-color: #65bb10;
+        color: white;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px 100px;
+        font-size: large;
+    }
+    p {
+        color: #dbdbdb;
+    }
+}
+
+#all {
+    padding: 150px 50px;
+}

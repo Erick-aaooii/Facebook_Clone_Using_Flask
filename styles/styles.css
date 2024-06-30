@@ -32,7 +32,7 @@ body {
     margin: 10px 10px;
     text-align: center;
     float: right;
-    margin-right: 150px;
+    margin-right: 1px;
     background-color: white;
 
     input {
@@ -41,12 +41,16 @@ body {
         margin-top: 15px;
         border-radius: 5px;
         border: 1px solid #cecece;
+        font-size: 16px;
+        padding-left: 20px
     }
     input:placeholder-shown {
         padding-left: 20px;
         font-size: large;
         color: #b6b2b2;
+
     }
+    
     button {
         border-radius: 5px;
         display: block;
@@ -59,20 +63,28 @@ body {
         border: none;
         font-size: large;
     }
+    button:hover {
+        background-color: blue;
+    }
+
     a {
         text-decoration: none;
-        font-size: 15px
-
+        font-size: 15px;
     }
+    
     #criar {
         display: inline-block;
-        background-color: #65bb10;
+        background-color: #78bb35;
         color: white;
         border-radius: 5px;
         padding: 15px;
         margin: 10px 100px;
         font-size: large;
     }
+    #criar:hover {
+        background-color:#6b9e38;
+    }
+
     p {
         color: #dbdbdb;
     }
@@ -83,14 +95,22 @@ body {
     align-items: center;
     padding-top: 120px;
     padding-left: 40px;
+    margin-bottom: 0%;
+    
+
 }
 
 #page {
+    margin-top: 40px;
+    font-size: 14px;
     p {
+        display: inline;
         margin-top: 40px;
         color: #313131;
+
     }
     a {
+        display: inline;
         color: #313131;
 
     }
